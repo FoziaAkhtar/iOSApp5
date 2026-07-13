@@ -27,9 +27,7 @@ struct MainView: View {
         TabView {
 
             NavigationStack {
-
-                Text("Videos Coming Soon")
-                    .font(.title)
+                VideoListView()
 
             }
             .tabItem {
