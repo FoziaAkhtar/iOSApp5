@@ -88,8 +88,8 @@
 		A4A9078230042CAB001A01AA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A4A9078830042D4A001A01AA /* Audio.swift */,
 				A4A9078630042D0C001A01AA /* Video.swift */,
+				A4A9078830042D4A001A01AA /* Audio.swift */,
 				A4A9077630042C93001A01AA /* iOSApp5 */,
 			);
 			path = Models;
@@ -98,9 +98,9 @@
 		A4A9078330042CC0001A01AA /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				A497363B3004A88200234ED5 /* AppSetting.swift */,
-				A4A9079330048611001A01AA /* AudioLoader.swift */,
 				A4A9079030048475001A01AA /* VideoLoader.swift */,
+				A4A9079330048611001A01AA /* AudioLoader.swift */,
+				A497363B3004A88200234ED5 /* AppSetting.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -108,12 +108,12 @@
 		A4A9078430042CCB001A01AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A497363D3004A98000234ED5 /* SettingsView.swift */,
-				A4A907A43004958A001A01AA /* AudioPlayerView.swift */,
-				A4A907A23004943A001A01AA /* AudioListView.swift */,
 				A4A9079730048713001A01AA /* MainView.swift */,
 				A4A90799300488BC001A01AA /* VideoListView.swift */,
 				A4A9079B30048D8B001A01AA /* VideoPlayerView.swift */,
+				A4A907A23004943A001A01AA /* AudioListView.swift */,
+				A4A907A43004958A001A01AA /* AudioPlayerView.swift */,
+				A497363D3004A98000234ED5 /* SettingsView.swift */,
 				A4A90796300486B0001A01AA /* ShareSheet.swift */,
 			);
 			path = Views;
