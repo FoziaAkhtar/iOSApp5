@@ -15,6 +15,10 @@
 		A4A9079A300488C5001A01AA /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A90799300488BC001A01AA /* VideoListView.swift */; };
 		A4A9079C30048D99001A01AA /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079B30048D8B001A01AA /* VideoPlayerView.swift */; };
 		A4A9079D30048F6F001A01AA /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A90796300486B0001A01AA /* ShareSheet.swift */; };
+		A4A9079E30049248001A01AA /* video1-ocean.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A4A9078E30048384001A01AA /* video1-ocean.mp4 */; };
+		A4A9079F3004924F001A01AA /* video2-ocean.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A4A9078F300483D2001A01AA /* video2-ocean.mp4 */; };
+		A4A907A030049255001A01AA /* audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4A9078B30042F6B001A01AA /* audio2.mp3 */; };
+		A4A907A13004925A001A01AA /* audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4A9078A30042F60001A01AA /* audio1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,6 +180,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A907A030049255001A01AA /* audio2.mp3 in Resources */,
+				A4A9079E30049248001A01AA /* video1-ocean.mp4 in Resources */,
+				A4A907A13004925A001A01AA /* audio1.mp3 in Resources */,
+				A4A9079F3004924F001A01AA /* video2-ocean.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
