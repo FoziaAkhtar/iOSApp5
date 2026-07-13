@@ -6,8 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A4A9078730042D16001A01AA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9078630042D0C001A01AA /* Video.swift */; };
+		A4A9078930042D50001A01AA /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9078830042D4A001A01AA /* Audio.swift */; };
+		A4A9079230048481001A01AA /* VideoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079030048475001A01AA /* VideoLoader.swift */; };
+		A4A9079530048619001A01AA /* AudioLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079330048611001A01AA /* AudioLoader.swift */; };
+		A4A9079830048807001A01AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079730048713001A01AA /* MainView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A4A9077430042C93001A01AA /* iOSApp5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A9078630042D0C001A01AA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		A4A9078830042D4A001A01AA /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		A4A9078A30042F60001A01AA /* audio1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio1.mp3; sourceTree = "<group>"; };
+		A4A9078B30042F6B001A01AA /* audio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio2.mp3; sourceTree = "<group>"; };
+		A4A9078E30048384001A01AA /* video1-ocean.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video1-ocean.mp4"; sourceTree = "<group>"; };
+		A4A9078F300483D2001A01AA /* video2-ocean.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video2-ocean.mp4"; sourceTree = "<group>"; };
+		A4A9079030048475001A01AA /* VideoLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLoader.swift; sourceTree = "<group>"; };
+		A4A9079330048611001A01AA /* AudioLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioLoader.swift; sourceTree = "<group>"; };
+		A4A90796300486B0001A01AA /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		A4A9079730048713001A01AA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +50,10 @@
 		A4A9076B30042C93001A01AA = {
 			isa = PBXGroup;
 			children = (
-				A4A9077630042C93001A01AA /* iOSApp5 */,
+				A4A9078530042CD5001A01AA /* Resources */,
+				A4A9078430042CCB001A01AA /* Views */,
+				A4A9078330042CC0001A01AA /* Managers */,
+				A4A9078230042CAB001A01AA /* Models */,
 				A4A9077530042C93001A01AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +64,45 @@
 				A4A9077430042C93001A01AA /* iOSApp5.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A9078230042CAB001A01AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4A9078830042D4A001A01AA /* Audio.swift */,
+				A4A9078630042D0C001A01AA /* Video.swift */,
+				A4A9077630042C93001A01AA /* iOSApp5 */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4A9078330042CC0001A01AA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A4A9079330048611001A01AA /* AudioLoader.swift */,
+				A4A9079030048475001A01AA /* VideoLoader.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A4A9078430042CCB001A01AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4A9079730048713001A01AA /* MainView.swift */,
+				A4A90796300486B0001A01AA /* ShareSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4A9078530042CD5001A01AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4A9078A30042F60001A01AA /* audio1.mp3 */,
+				A4A9078B30042F6B001A01AA /* audio2.mp3 */,
+				A4A9078E30048384001A01AA /* video1-ocean.mp4 */,
+				A4A9078F300483D2001A01AA /* video2-ocean.mp4 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A9078930042D50001A01AA /* Audio.swift in Sources */,
+				A4A9079830048807001A01AA /* MainView.swift in Sources */,
+				A4A9079230048481001A01AA /* VideoLoader.swift in Sources */,
+				A4A9078730042D16001A01AA /* Video.swift in Sources */,
+				A4A9079530048619001A01AA /* AudioLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
