@@ -13,6 +13,7 @@
 		A4A9079530048619001A01AA /* AudioLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079330048611001A01AA /* AudioLoader.swift */; };
 		A4A9079830048807001A01AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079730048713001A01AA /* MainView.swift */; };
 		A4A9079A300488C5001A01AA /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A90799300488BC001A01AA /* VideoListView.swift */; };
+		A4A9079C30048D99001A01AA /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079B30048D8B001A01AA /* VideoPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A4A90796300486B0001A01AA /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		A4A9079730048713001A01AA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A4A90799300488BC001A01AA /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		A4A9079B30048D8B001A01AA /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -90,6 +92,7 @@
 		A4A9078430042CCB001A01AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A4A9079B30048D8B001A01AA /* VideoPlayerView.swift */,
 				A4A90799300488BC001A01AA /* VideoListView.swift */,
 				A4A9079730048713001A01AA /* MainView.swift */,
 				A4A90796300486B0001A01AA /* ShareSheet.swift */,
@@ -188,6 +191,7 @@
 				A4A9079230048481001A01AA /* VideoLoader.swift in Sources */,
 				A4A9078730042D16001A01AA /* Video.swift in Sources */,
 				A4A9079530048619001A01AA /* AudioLoader.swift in Sources */,
+				A4A9079C30048D99001A01AA /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

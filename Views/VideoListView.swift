@@ -44,10 +44,10 @@ struct VideoListView: View {
 
             NavigationLink {
 
-                // We will build this screen next
-                Text(video.name)
-
-            } label: {
+                VideoPlayerView(video: video)
+    }
+            
+            label: {
 
                 HStack(spacing: 15) {
 
