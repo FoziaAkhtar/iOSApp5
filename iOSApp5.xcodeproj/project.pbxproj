@@ -12,6 +12,7 @@
 		A4A9079230048481001A01AA /* VideoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079030048475001A01AA /* VideoLoader.swift */; };
 		A4A9079530048619001A01AA /* AudioLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079330048611001A01AA /* AudioLoader.swift */; };
 		A4A9079830048807001A01AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9079730048713001A01AA /* MainView.swift */; };
+		A4A9079A300488C5001A01AA /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A90799300488BC001A01AA /* VideoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A4A9079330048611001A01AA /* AudioLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioLoader.swift; sourceTree = "<group>"; };
 		A4A90796300486B0001A01AA /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		A4A9079730048713001A01AA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A4A90799300488BC001A01AA /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +90,7 @@
 		A4A9078430042CCB001A01AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A4A90799300488BC001A01AA /* VideoListView.swift */,
 				A4A9079730048713001A01AA /* MainView.swift */,
 				A4A90796300486B0001A01AA /* ShareSheet.swift */,
 			);
@@ -181,6 +184,7 @@
 			files = (
 				A4A9078930042D50001A01AA /* Audio.swift in Sources */,
 				A4A9079830048807001A01AA /* MainView.swift in Sources */,
+				A4A9079A300488C5001A01AA /* VideoListView.swift in Sources */,
 				A4A9079230048481001A01AA /* VideoLoader.swift in Sources */,
 				A4A9078730042D16001A01AA /* Video.swift in Sources */,
 				A4A9079530048619001A01AA /* AudioLoader.swift in Sources */,
