@@ -17,7 +17,7 @@
 //  ✓ TabView
 //  ✓ NavigationStack
 //  ✓ EnvironmentObject
-//  ✓ NavigationLink
+//  ✓ Dynamic Appearance
 // =================================
 
 import SwiftUI
@@ -35,25 +35,21 @@ struct MainView: View {
 
 
 
-    var body: some View {
 
+    var body: some View {
 
 
         TabView {
 
 
 
-
-
-
             // MARK: - Videos Tab
-
 
 
             NavigationStack {
 
 
-                // Displays all videos from bundle
+                // Displays all videos from app bundle
                 VideoListView()
 
 
@@ -81,11 +77,10 @@ struct MainView: View {
             // MARK: - Audio Tab
 
 
-
             NavigationStack {
 
 
-                // Displays all audio files from bundle
+                // Displays all audio files from app bundle
                 AudioListView()
 
 
@@ -110,9 +105,7 @@ struct MainView: View {
 
 
 
-
             // MARK: - Settings Tab
-
 
 
             NavigationStack {
@@ -138,23 +131,23 @@ struct MainView: View {
             }
 
 
+
         }
 
 
 
-
-
-        // Apply selected background colour
+        // Applies selected background colour
+        // from Settings.bundle
         .background(
 
             settings.getBackgroundColour()
 
+                .ignoresSafeArea()
+
         )
 
     }
-
 }
-
 
 
 

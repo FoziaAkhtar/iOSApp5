@@ -31,18 +31,20 @@
 			<string>PSMultiValueSpecifier</string>
 			<key>Titles</key>
 			<array/>
-			<key>Item 0</key>
+			<key>iItem 0</key>
 			<string>White</string>
 			<key>Item 1</key>
 			<string>Gray</string>
-			<key>Item 2</key>
-			<string>Yellow</string>
 			<key>Item 3</key>
 			<string>Blue</string>
 			<key>Key</key>
 			<string>background_colour</string>
 			<key>Values</key>
 			<array/>
+			<key>Item 0</key>
+			<string>white</string>
+			<key>Item 2</key>
+			<string>yellow</string>
 			<key>item 3</key>
 			<string>blue</string>
 		</dict>
@@ -67,28 +69,6 @@
 			<integer>0</integer>
 			<key>MaximumValue</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSSliderSpecifier</string>
-			<key>Key</key>
-			<string></string>
-			<key>DefaultValue</key>
-			<integer>0</integer>
-			<key>MinimumValue</key>
-			<integer>0</integer>
-			<key>MaximumValue</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
-			<key>Title</key>
-			<string></string>
-			<key>Key</key>
-			<string></string>
-			<key>DefaultValue</key>
-			<string></string>
 		</dict>
 	</array>
 </dict>

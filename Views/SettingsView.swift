@@ -7,7 +7,7 @@
 // ===============================================
 //  Purpose:
 //  Displays current application settings.
-//  Shows values stored from Settings.bundle.
+//  Shows values loaded from Settings.bundle.
 // ===============================================
 //  Learning Outcomes:
 //  ✓ EnvironmentObject
@@ -18,23 +18,35 @@
 import SwiftUI
 
 
+
 struct SettingsView: View {
 
 
-    // Receives shared settings from the app
+
+    // Receives shared settings from the application
     @EnvironmentObject var settings: AppSettings
+
+
+
 
 
 
     var body: some View {
 
 
-        VStack(spacing: 20) {
+        VStack(spacing: 25) {
 
 
+
+            // Screen title
             Text("App Settings")
+
                 .font(.largeTitle)
+
                 .bold()
+
+
+
 
 
 
@@ -42,23 +54,64 @@ struct SettingsView: View {
 
 
 
-            Text("Theme Mode: \(settings.themeMode)")
-            
 
-            Text("Background Colour: \(settings.backgroundColour)")
-            
 
+
+            // Displays current theme selection
             Text(
+
+                "Theme Mode: \(settings.themeMode)"
+
+            )
+
+
+
+
+
+
+
+            // Displays selected background colour
+            Text(
+
+                "Background Colour: \(settings.backgroundColour)"
+
+            )
+
+
+
+
+
+
+
+            // Displays automatic video playback status
+            Text(
+
                 "Auto Play: \(settings.autoPlay ? "ON" : "OFF")"
+
             )
 
 
+
+
+
+
+
+            // Displays default audio volume
             Text(
+
                 String(
+
                     format: "Default Volume: %.1f",
+
                     settings.defaultVolume
+
                 )
+
             )
+
+
+
+
 
 
 
@@ -66,28 +119,48 @@ struct SettingsView: View {
 
         .padding()
 
+
+
         // Applies selected background colour
+        // with opacity so text remains visible
         .background(
+
             settings.getBackgroundColour()
+
+                .opacity(0.3)
+
                 .ignoresSafeArea()
+
         )
 
 
 
         .navigationTitle("Settings")
+
     }
 }
 
 
 
+
+
+
+
 #Preview {
+
 
     NavigationStack {
 
+
         SettingsView()
 
-            .environmentObject(
-                AppSettings()
-            )
+
     }
+
+    .environmentObject(
+
+        AppSettings()
+
+    )
+
 }
